@@ -49,8 +49,17 @@ public class Main {
             }
         }
 
-        //Дан массив пар названий книг и авторов, необходимо привести каждую пару в строку вида: «Название книги» И. О. Автора.
+        System.out.println();
 
+
+
+
+        //Дан массив пар названий книг и авторов, необходимо привести каждую пару в строку вида: «Название книги» И. О. Автора.
+        String [][] arrayBooks = { {"Нос", "Н. В. Гоголь"}, {"Вий", "Н. В. Гоголь"}, {"Война и мир", "Л. Н. Толстой"}, {"Мцыри", "М. Ю. Лермонтов"}};
+        System.out.println(Arrays.toString(arrayBooks[0]));
+        System.out.println(Arrays.toString(arrayBooks[1]));
+        System.out.println(Arrays.toString(arrayBooks[2]));
+        System.out.println(Arrays.toString(arrayBooks[3]));
 
 
         /*Необходимо реализовать следующий метод:
